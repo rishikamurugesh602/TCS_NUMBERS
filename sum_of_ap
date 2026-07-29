@@ -1,0 +1,11 @@
+n=int(input())
+a=int(input())
+d=int(input())
+
+def solution(n,a,d):
+    summ=0
+    for i in range(1,n+1):
+        summ+=a
+        a+=d
+    return summ
+print(solution(n,a,d))
